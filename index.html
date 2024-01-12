@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pricing Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Fictional Product</h1>
+      <p>Choose the plan that suits you the best</p>
+    </header>
+
+    <section class="pricing-table">
+      <div class="pricing-tier" id="basic">
+        <h2>Basic</h2>
+        <p class="price" data-monthly="$9.99" data-yearly="$99.99">
+          Monthly: $9.99
+        </p>
+        <p class="billing-type">Billed monthly</p>
+        <ul>
+          <li>Feature 1</li>
+          <li>Feature 2</li>
+          <li>Feature 3</li>
+        </ul>
+        <button class="choose-plan">Choose Plan</button>
+      </div>
+
+      <div class="pricing-tier popular" id="pro">
+        <h2>Pro</h2>
+        <p class="price" data-monthly="$19.99" data-yearly="$199.99">
+          Monthly: $19.99
+        </p>
+        <p class="billing-type">Billed monthly</p>
+        <ul>
+          <li>Feature 1</li>
+          <li>Feature 2</li>
+          <li>Feature 3</li>
+          <li>Feature 4</li>
+        </ul>
+        <button class="choose-plan">Choose Plan</button>
+      </div>
+
+      <div class="pricing-tier" id="premium">
+        <h2>Premium</h2>
+        <p class="price" data-monthly="$29.99" data-yearly="$299.99">
+          Monthly: $29.99
+        </p>
+        <p class="billing-type">Billed monthly</p>
+        <ul>
+          <li>Feature 1</li>
+          <li>Feature 2</li>
+          <li>Feature 3</li>
+          <li>Feature 4</li>
+          <li>Feature 5</li>
+        </ul>
+        <button class="choose-plan">Choose Plan</button>
+      </div>
+    </section>
+
+    <div class="toggle-container">
+      <label for="billing-toggle">Yearly Billing</label>
+      <input type="checkbox" id="billing-toggle" />
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Fictional Product. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
